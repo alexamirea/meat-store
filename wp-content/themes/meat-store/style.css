@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: transparent;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.navbar-nav {
+    margin-top: 30px;
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 30px !important;
+}
+.navbar-nav > .nav-item > .nav-link {
+    padding-left: 30px;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.fullscreen-wrap {
+    min-height: 800px;
+    background-image: url('resources/images/meat-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.fullscreen-wrap .container,
+.fullscreen-wrap .catalog.row {
+    min-height: inherit;
+}
+
+.fullscreen-wrap .catalog.row > .col-12 {
+    margin: 30% auto auto auto;
+}
+.btn-catalog {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    transition: 100ms ease-out;
+}
+.btn-catalog:hover {
+    color: #000;
+    background: #fff;
+    transition: 100ms ease-in;
+}
+
+
+/********/
+
+.blablascreen .container {
+    max-width: 100%;
+    padding-right: 0;
+}
+.blablascreen .container .col-4 {
+    padding-left: 0;
+}
+.site--footer {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+
+.site--footer ul li {
+    color: #646464;
+}
+
+.site--footer ul li a {
+    padding: 5px 30px;
+    color: #646464;
+}
+
+.blablacontent {
+    padding-left: 40px;
+    margin-top: 150px;
+    max-width: 80%;
+}
+
+.filters {
+    min-height: 80vh;
+}
+
+.price.slider {
+    height: 100%;
+    background-color: #fff;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #646466;
+    opacity: 1;
+}
+
+.catalog-wrap {
+    padding: 2rem 0;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+/* The slider itself */
+.slider {
+-webkit-appearance: none;  /* Override default CSS styles */
+appearance: none;
+width: 100%; /* Full-width */
+height: 10px; /* Specified height */
+background: #000; /* Grey background */
+outline: none; /* Remove outline */
+opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+transition: opacity .2s;
+}
+/* Mouse-over effects */
+.slider:hover {
+opacity: 1; /* Fully shown on mouse-over */
+}
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none; /* Override default look */
+appearance: none;
+width: 25px; /* Set a specific slider handle width */
+height: 25px; /* Slider handle height */
+background:red; /* Green background */
+cursor: pointer; /* Cursor on hover */
+}
+.slider::-moz-range-thumb {
+width: 25px; /* Set a specific slider handle width */
+height: 25px; /* Slider handle height */
+background: red; /* Green background */
+cursor: pointer; /* Cursor on hover */
+}
